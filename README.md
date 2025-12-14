@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=for-the-badge" height="25" alt="Youtube"/>
 </a>
 
-<h1 align="center">Hey there 👋</h1>
+<h1 align="center">Hey There 👋</h1>
 
 <h2 align="center">
 MS in Data Analytics @ Penn State | Data Scientist in Training
