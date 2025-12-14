@@ -92,9 +92,9 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
   <img src="https://img.shields.io/badge/Cursor%20IDE-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="28" alt="cursor"/>
 </div>
 
-<h3 align="left">🔥   My Stats :</h3>
+<!--<h3 align="left">🔥   My Stats :</h3>
 
-<!--###
+###
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=tus2014ar&show_icons=true&theme=dark" />
 </div>
