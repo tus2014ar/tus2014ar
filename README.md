@@ -92,8 +92,9 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
 <h3 align="left">🔥   My Stats :</h3>
 
 ###
+
 <p align="center">
-  <img src="https://YOUR-VERCEL-APP.vercel.app/?user=tus2014ar&theme=dark" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=tus2014ar&theme=dark" alt="GitHub Streak"/>
 </p>
 
 ###
