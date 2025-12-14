@@ -94,8 +94,9 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
 
 <h3 align="left">🔥   My Stats :</h3>
 
-###
+<!--###
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=tus2014ar&show_icons=true&theme=dark" />
 </div>
+-->
 
