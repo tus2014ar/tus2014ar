@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXAxYmJvZ3BmaGs2MWcwMnowMTl3eTQyY2ZnY2RwNXYzcHY1MmN1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LaVp0AyqR5bGsC5Cbm/giphy.gif"  />
+  <img height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXAxYmJvZ3BmaGs2MWcwMnowMTl3eTQyY2ZnY2RwNXYzcHY1MmN1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LaVp0AyqR5bGsC5Cbm/giphy.gif"/>
 </div>
 
 ###
@@ -11,11 +11,14 @@
    <a href="https://medium.com/@tusharsingh_37238" target="_blank">
     <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white&style=for-the-badge" height="25" alt="Medium"/>
   </a>
+  <a href="https://www.youtube.com/@corporateaspirant8965" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=for-the-badge"/>
+</a>
 
 <h1 align="center">Hey there 👋</h1>
-<h3 align="center">
+<h2 align="center">
 Master's student in Data Analytics @ Pennsylvania State University | Aspiring Data Scientist
-</h3>
+</h2>
 <h3 align="center">
 Data-Driven. Detail-Oriented. Results-Focused.
 </h3>
