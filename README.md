@@ -29,11 +29,14 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
 
 </div> 
 
+<h3 align="left">💡 What I Do</h3>
+
 <ul>
-  <li>🔭 Graduate Research Assistant in Data Science, building forecasting models (ARIMA, Prophet, XGBoost) and analytics workflows to drive data-informed decision making.</li>
-  <li>📚 Strengthening expertise in Python, SQL, Statistics, Linear Algebra, and BI dashboards through rigorous coursework and hands-on projects.</li>
-  <li>⚡ Exploring real-world datasets, developing dashboards and ML prototypes, and leveraging modern AI tools to improve productivity and model development.</li>
+  <li>🔭 <b>Build forecasting & analytics solutions</b> — ARIMA, Prophet, and XGBoost models that support data-driven decision making.</li>
+  <li>📊 <b>Analyze & model real-world data</b> using Python, SQL, Statistics, and BI dashboards to extract actionable insights.</li>
+  <li>⚡ <b>Prototype ML & AI-assisted workflows</b> — dashboards, models, and experiments that improve productivity and model development.</li>
 </ul>
+
 
 
 ###
