@@ -34,10 +34,10 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
 <p align="left">I'm ... from ....<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
 
 ###
-<h3 align="left">🛠 Languages & Tools</h3>
+<h3 align="left">🛠 Languages, Tools & AI</h3>
 
 <div align="left">
-  <!-- Programming Languages -->
+  <!-- Programming -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python"/>
   <img width="12"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r"/>
@@ -47,18 +47,18 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="sql"/>
   <img width="12"/>
 
-  <!-- Data & ML -->
+  <!-- Data Science & ML -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas"/>
   <img width="12"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy"/>
   <img width="12"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" height="40" alt="scikit-learn"/>
   <img width="12"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow"/>
+  <img width="12"/>
 
   <!-- Visualization -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" height="40" alt="matplotlib"/>
-  <img width="12"/>
-  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" height="28" alt="seaborn"/>
   <img width="12"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="40" alt="powerbi"/>
   <img width="12"/>
@@ -73,6 +73,21 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git"/>
 </div>
 
+<br/>
+
+<h3 align="left">🤖 AI Tools</h3>
+
+<div align="left">
+  <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="chatgpt"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white" height="28" alt="copilot"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Claude-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Perplexity-0A0A0A?style=for-the-badge&logo=perplexity&logoColor=white" height="28" alt="perplexity"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Cursor%20IDE-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="28" alt="cursor"/>
+</div>
 
 <h3 align="left">🔥   My Stats :</h3>
 
