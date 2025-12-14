@@ -8,8 +8,8 @@
   <a href="https://www.linkedin.com/in/tushar-945648131/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn"/>
   </a>
-   <a href="https://medium.com/@YOUR_MEDIUM_USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white&style=for-the-badge"/>
+   <a href="https://medium.com/@tusharsingh_37238" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white&style=for-the-badge" height="25" alt="Medium"/>
   </a>
 
 <h1 align="center">Hey there 👋</h1>
