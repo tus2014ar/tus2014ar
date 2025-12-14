@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white&style=for-the-badge" height="25" alt="Medium"/>
   </a>
   <a href="https://www.youtube.com/@corporateaspirant8965" target="_blank">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=for-the-badge" height="25" alt="Youtube"/>
 </a>
 
 <h1 align="center">Hey there 👋</h1>
