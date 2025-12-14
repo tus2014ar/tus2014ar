@@ -93,8 +93,6 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
 
 ###
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=tus2014ar&theme=dark" alt="GitHub Streak"/>
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=tus2014ar&show_icons=true&theme=dark" />
 
 ###
