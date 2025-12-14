@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src="https://giphy.com/gifs/pudgypenguins-lie-dev-data-doesnt-LaVp0AyqR5bGsC5Cbm"  />
+  <img src="(https://giphy.com/gifs/pudgypenguins-lie-dev-data-doesnt-LaVp0AyqR5bGsC5Cbm)" width="500"/>
 </div>
 
 ###
