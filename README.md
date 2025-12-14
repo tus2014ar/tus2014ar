@@ -34,7 +34,7 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
 <p align="left">I'm ... from ....<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
 
 ###
-<h3 align="left">🛠 Languages, Tools & AI</h3>
+<h3 align="left">🛠 Languages & Tools</h3>
 
 <div align="left">
   <!-- Programming -->
