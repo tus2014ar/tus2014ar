@@ -16,14 +16,14 @@
 </a>
 
 <h1 align="center">Hey there 👋</h1>
+
 <h2 align="center">
-Master's student in Data Analytics @ Pennsylvania State University | Aspiring Data Scientist
+MS in Data Analytics @ Penn State | Aspiring Data Scientist
 </h2>
+
 <h3 align="center">
-Data-Driven. Detail-Oriented. Results-Focused.
+Delivering forecasting, ML, and analytics solutions with real-world impact
 </h3>
-
-
 
 ###
 
