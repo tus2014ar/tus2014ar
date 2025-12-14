@@ -27,15 +27,17 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
 
 ###
 
-<h3 align="left">👩‍💻 About Me</h3>
+<h3>👩‍💻 About Me</h3>
 
-<p align="left">
-I'm a Master’s student in Data Analytics at Pennsylvania State University with prior industry experience at Oracle and Accenture working as data consultant.<br><br>
-
-- 🔭 I’m currently working as a Graduate Research Assistant in Data Science, building forecasting models (ARIMA, Prophet, XGBoost) and analytics workflows to support data-driven decision making.<br>
-- 📚 I’m currently deepening my skills in Python, SQL, Statistics, Linear Algebra, BI and dashboards through coursework and hands-on projects.<br>
-- ⚡ In my free time, I enjoy exploring real-world datasets, building dashboards and ML prototypes, and experimenting with modern AI tools to improve productivity and model development.
+<p>
+I'm a Master’s student in Data Analytics at Pennsylvania State University with prior industry experience at Oracle and Accenture working as a data consultant.
 </p>
+
+<ul>
+  <li>🔭 I’m currently working as a Graduate Research Assistant in Data Science, building forecasting models (ARIMA, Prophet, XGBoost) and analytics workflows to support data-driven decision making.</li>
+  <li>📚 I’m currently deepening my skills in Python, SQL, Statistics, Linear Algebra, BI and dashboards through coursework and hands-on projects.</li>
+  <li>⚡ In my free time, I enjoy exploring real-world datasets, building dashboards and ML prototypes, and experimenting with modern AI tools to improve productivity and model development.</li>
+</ul>
 
 ###
 <h3 align="left">🛠 Languages & Tools</h3>
