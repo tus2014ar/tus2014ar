@@ -18,7 +18,7 @@
 <h1 align="center">Hey there 👋</h1>
 
 <h2 align="center">
-MS in Data Analytics @ Penn State | Data Scientist in training
+MS in Data Analytics @ Penn State | Data Scientist in Training
 </h2>
 
 <h3 align="center">
