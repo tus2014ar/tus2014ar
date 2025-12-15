@@ -89,6 +89,9 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
   <img src="https://img.shields.io/badge/Perplexity-0A0A0A?style=for-the-badge&logo=perplexity&logoColor=white" height="28" alt="perplexity"/>
   <img width="8"/>
   <img src="https://img.shields.io/badge/Cursor%20IDE-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="28" alt="cursor"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Julius%20AI-111827?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="julius-ai"/>
+
 </div>
 
 <!--<h3 align="left">🔥   My Stats :</h3>
