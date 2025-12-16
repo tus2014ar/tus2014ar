@@ -64,6 +64,8 @@ Building forecasting, AI/ML, and Analytics solutions with real-world impact
   <img width="12"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="40" alt="powerbi"/>
   <img width="12"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Seaborn_logo.svg" height="40" alt="seaborn"/>
+  <img width="12"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" height="40" alt="tableau"/>
   <img width="12"/>
 
