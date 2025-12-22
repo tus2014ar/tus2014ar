@@ -22,7 +22,7 @@ Data Scientist in Training
 </h2>
 
 <h3 align="center">
-Building forecasting, AI/ML, and Analytics solutions with real-world impact
+Building efficient & scalable data solutions with real-world impact
 </h3>
 
 ###
