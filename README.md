@@ -94,7 +94,7 @@ Building efficient & scalable data solutions with real-world impact
   <img width="8"/>
   <img src="https://img.shields.io/badge/Cursor%20IDE-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="28" alt="cursor"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Anigravity-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Anigravity" height="28">
+  <img src="https://img.shields.io/badge/Antigravity%20IDE-111827?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity IDE badge" height="28">
   <img width="8"/>
   <img src="https://img.shields.io/badge/Julius%20AI-111827?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="julius-ai"/>
 
