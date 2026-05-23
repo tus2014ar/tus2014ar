@@ -18,7 +18,7 @@
 <h1 align="center">Hey There 👋</h1>
 
 <h2 align="center">
-Data Scientist in Training
+Data Scientist & Analytics Engineer
 </h2>
 
 <h3 align="center">
