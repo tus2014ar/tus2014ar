@@ -22,7 +22,7 @@ Data Scientist · Data Engineer · Analytics Engineer
 </h2>
 
 <h3 align="center">
-Building efficient & scalable data solutions with real-world impact
+Shipping efficient & scalable data solutions with real-world impact to production
 </h3>
 
 ###
