@@ -18,7 +18,7 @@
 <h1 align="center">Hey There 👋</h1>
 
 <h2 align="center">
-Data Scientist & Analytics Engineer
+Data Scientist · Data Engineer · Analytics Engineer
 </h2>
 
 <h3 align="center">
@@ -27,15 +27,145 @@ Building efficient & scalable data solutions with real-world impact
 
 ###
 
-</div> 
+</div>
 
 <h3 align="left">💡 What I Do</h3>
 
-<ul> <li>🔭 Graduate Research Assistant in Data Science, building forecasting models and analytics workflows to drive data-informed decision making.</li> <li>📚 Strengthening expertise in Python, SQL, Statistics, Machine Learning, and BI dashboards through rigorous coursework and hands-on projects.</li> <li>⚡ Exploring real-world datasets, developing dashboards and ML prototypes, and leveraging modern AI tools to improve productivity and model development.</li> </ul>
-
-
+<ul>
+<li>🔭 Graduate Research Assistant in Data Science, building forecasting models and analytics workflows to drive data-informed decision making.</li>
+<li>⚙️ Data engineering internship experience building production Databricks pipelines — data quality frameworks, FinOps cost attribution, and medallion-architecture data models.</li>
+<li>📚 Strengthening expertise in Python, SQL, Statistics, Machine Learning, and BI dashboards through rigorous coursework and hands-on projects.</li>
+<li>⚡ Exploring real-world datasets, developing dashboards and ML prototypes, and leveraging modern AI tools to improve productivity and model development.</li>
+</ul>
 
 ###
+
+<h3 align="left">🚀 Featured Projects</h3>
+
+<h4 align="left">⚙️ Data Engineering</h4>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Databricks Data Quality Framework](https://github.com/tus2014ar/databricks-data-quality-framework)**
+
+Automated data quality monitoring built on Databricks DQX. 211 rule-based checks across 23 production tables, running on a scheduled bronze freshness monitor + gold rule engine.
+
+- Surfaced that **84% of active records** carried at least one data quality issue
+- Root-caused a **~39% completeness gap** in a core reporting table
+- Built an automated weekly digest routing findings to record owners
+
+`Databricks` `PySpark` `SQL` `Python` `YAML rule engines`
+
+</td>
+<td width="50%" valign="top">
+
+**[Databricks Cost Analytics & FinOps Framework](https://github.com/tus2014ar/databricks-cost-analytics)**
+
+FinOps cost-attribution pipeline built on Unity Catalog system tables. Star schema spanning 9 system tables, powering a 6-tab cost governance dashboard.
+
+- Found **85.6% of platform spend** had no identifiable owner
+- Identified **~95% of tracked resources** idle 90+ days, still accruing cost
+- Caught a **2x measurement error** in an AI-cost methodology before it shipped
+
+`Databricks` `PySpark` `SQL` `Star Schema` `FinOps`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Scholar Swipe — Scholarship Scraper](https://github.com/tus2014ar/Scholar-Swipe-Web-Scraping-Project)**
+
+Automated scraping pipeline that extracts scholarship listings and aggregates them into a centralized PostgreSQL (Supabase) database, with upsert-based dedup and automated summarization.
+
+`Python` `BeautifulSoup4` `PostgreSQL` `Supabase`
+
+</td>
+</tr>
+</table>
+
+<h4 align="left">🤖 Data Science / ML</h4>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[AI Sentinel — Automated AI Compliance Monitoring](https://github.com/tus2014ar/AI-Sentinel---Automated-AI-Compliance-Monitoring-Platform)**
+
+Autonomous compliance agents that detect AI-driven regulatory risk in real time — built for the Penn State Nittany AI Challenge 2026, with fall-monitoring technology as the first live use case.
+
+- 5 detection rules mapped directly to CMS federal regulations (42 CFR §483)
+- Hybrid architecture: deterministic rule engine + local LLM explanation layer with a 100%-deterministic fallback
+- Every finding SHA-256 audit-logged for compliance traceability
+
+`Python` `Streamlit` `Ollama (local LLM)` `SQLite`
+
+</td>
+<td width="50%" valign="top">
+
+**[Resume–JD Matching Using Deep Learning](https://github.com/tus2014ar/Resume-Job-Description-Matching-Using-Deep-Learning)**
+
+3-stage semantic ranking pipeline improving over keyword-based ATS matching: TF-IDF baseline → SBERT semantic embeddings → supervised neural refinement into a calibrated match probability.
+
+- 120 resumes ranked against 2,277 job descriptions across 15 technical roles
+- `all-MiniLM-L6-v2` dense embeddings (384-d) for context-aware retrieval
+
+`Python` `PyTorch` `SBERT` `scikit-learn`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Worldwide Sentiment Analysis of LLM-related Tweets](https://github.com/tus2014ar/Worldwide-Sentiment-Analysis-of-LLM-related-tweets)**
+
+End-to-end NLP + geospatial pipeline tracking global sentiment toward LLMs across 305K+ tweets, surfacing regional trust signals to support AI policy decisions.
+
+- Location-normalization pipeline cut unresolved geography from 72.8% → 43.85%
+- VADER sentiment scoring mapped by region and time
+
+`Python` `NLTK/VADER` `Plotly (geospatial)`
+
+</td>
+</tr>
+</table>
+
+<h4 align="left">📊 Analytics Engineering / BI</h4>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Alzheimer's Market Overview — United States](https://github.com/tus2014ar/Alzheimer-s-Market-Overview---United-States)**
+
+TRx-based pharmaceutical market analysis across brands, physician specialties, and sales channels — built as parallel dashboards in Python and Tableau to directly compare both platforms.
+
+- 202,499-row dataset with brand, specialty, and channel-mix analysis
+- Interactive Python (Plotly) dashboard exported as a standalone, shareable HTML file
+
+`Python` `Pandas` `Plotly` `Tableau`
+
+</td>
+<td width="50%" valign="top">
+
+**[Penn State GV Alumni Event Analysis & Forecasting](https://github.com/tus2014ar/Penn-State-GV-Alumni-Event-Performance-Analysis-Forecasting)**
+
+Multi-year (2022–2025) alumni event performance analysis with scenario-based 2026 forecasting, moving event planning from reactive to data-informed decision-making.
+
+- Projected **235 attendees** and **$49/attendee revenue** for 2026 via a blended trend + recency-weighted forecast
+- Consolidated 6 disparate Excel sources into a unified KPI model
+- 3-scenario (Conservative / Expected / Optimistic) financial forecast for stakeholder budget planning
+
+`Python` `Pandas` `Plotly` `Forecasting`
+
+</td>
+</tr>
+</table>
+
+###
+
 <h3 align="left">🛠 Languages & Tools</h3>
 
 <div align="left">
@@ -47,6 +177,10 @@ Building efficient & scalable data solutions with real-world impact
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java"/>
   <img width="12"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="sql"/>
+  <img width="12"/>
+
+  <!-- Data Engineering -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" height="40" alt="pyspark"/>
   <img width="12"/>
 
   <!-- Data Science & ML -->
@@ -97,7 +231,6 @@ Building efficient & scalable data solutions with real-world impact
   <img src="https://img.shields.io/badge/Antigravity%20IDE-111827?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity IDE badge" height="28">
   <img width="8"/>
   <img src="https://img.shields.io/badge/Julius%20AI-111827?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="julius-ai"/>
-
 </div>
 
 <!--<h3 align="left">🔥   My Stats :</h3>
@@ -107,4 +240,3 @@ Building efficient & scalable data solutions with real-world impact
 <img src="https://github-readme-stats.vercel.app/api?username=tus2014ar&show_icons=true&theme=dark" />
 </div>
 -->
-
