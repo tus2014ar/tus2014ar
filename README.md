@@ -170,59 +170,59 @@ Multi-year (2022–2025) alumni event performance analysis with scenario-based 2
 
 <div align="left">
   <!-- Programming -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python" title="Python"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r" title="R"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java" title="Java"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="sql"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="sql" title="SQL / MySQL"/>
   <img width="12"/>
 
   <!-- Data Engineering -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" height="40" alt="pyspark"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" height="40" alt="pyspark" title="PySpark / Apache Spark"/>
   <img width="12"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" height="40" alt="databricks"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" height="40" alt="databricks" title="Databricks"/>
   <img width="12"/>
 
   <!-- Data Science & ML -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas" title="pandas"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy" title="NumPy"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" height="40" alt="scikit-learn"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" height="40" alt="scikit-learn" title="scikit-learn"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow" title="TensorFlow"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch" title="PyTorch"/>
   <img width="12"/>
 
   <!-- Visualization -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" height="40" alt="matplotlib"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" height="40" alt="matplotlib" title="Matplotlib"/>
   <img width="12"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="40" alt="powerbi"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="40" alt="powerbi" title="Power BI"/>
   <img width="12"/>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Logo-seaborn.png" height="40" alt="seaborn"/>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Logo-seaborn.png" height="40" alt="seaborn" title="Seaborn"/>
   <img width="12"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" height="40" alt="tableau"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" height="40" alt="tableau" title="Tableau"/>
   <img width="12"/>
 
   <!-- Cloud & Databases -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" alt="aws"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" alt="aws" title="AWS"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure" title="Azure"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle" title="Oracle"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql" title="PostgreSQL"/>
   <img width="12"/>
 
   <!-- Dev Tools -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git" title="Git"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="40" alt="github-actions"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="40" alt="github-actions" title="GitHub Actions"/>
   <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter" title="Jupyter"/>
 </div>
 
 <br/>
@@ -230,29 +230,33 @@ Multi-year (2022–2025) alumni event performance analysis with scenario-based 2
 <h3 align="left">🤖 AI Tools</h3>
 
 <div align="left">
-  <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="chatgpt"/>
+  <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="chatgpt" title="ChatGPT"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white" height="28" alt="copilot"/>
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white" height="28" alt="copilot" title="GitHub Copilot"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Claude-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude"/>
+  <img src="https://img.shields.io/badge/Claude-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude" title="Claude"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Claude%20Code-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-code"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-code" title="Claude Code"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Claude%20Cowork-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-cowork"/>
+  <img src="https://img.shields.io/badge/Claude%20Cowork-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-cowork" title="Claude Cowork"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Claude%20Skills-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-skills"/>
+  <img src="https://img.shields.io/badge/Claude%20Skills-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-skills" title="Claude Skills"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Claude%20Projects-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-projects"/>
+  <img src="https://img.shields.io/badge/Claude%20Projects-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-projects" title="Claude Projects"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Claude%20MCP-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-mcp"/>
+  <img src="https://img.shields.io/badge/Claude%20MCP-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-mcp" title="Claude MCP"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Perplexity-0A0A0A?style=for-the-badge&logo=perplexity&logoColor=white" height="28" alt="perplexity"/>
+  <img src="https://img.shields.io/badge/Perplexity-0A0A0A?style=for-the-badge&logo=perplexity&logoColor=white" height="28" alt="perplexity" title="Perplexity"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Cursor%20IDE-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="28" alt="cursor"/>
+  <img src="https://img.shields.io/badge/Cursor%20IDE-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="28" alt="cursor" title="Cursor IDE"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Antigravity%20IDE-111827?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity IDE badge" height="28">
+  <img src="https://img.shields.io/badge/Antigravity%20IDE-111827?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity IDE badge" title="Antigravity IDE" height="28">
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Julius%20AI-111827?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="julius-ai"/>
+  <img src="https://img.shields.io/badge/Julius%20AI-111827?style=for-the-badge&logo=openai&logoColor=white" height="28" alt="julius-ai" title="Julius AI"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" height="28" alt="ollama" title="Ollama (local LLM)"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="28" alt="gemini" title="Google Gemini"/>
 </div>
 
 <!--<h3 align="left">🔥   My Stats :</h3>
