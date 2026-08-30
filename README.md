@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=for-the-badge" height="25" alt="Youtube"/>
 </a>
 
-<h1 align="center">Hey There 👋 Welcome to my Github</h1>
+<h1 align="center">Hey There 👋 Welcome to my profile</h1>
 
 <h2 align="center">
 Data Scientist · Data Engineer · Analytics Engineer
