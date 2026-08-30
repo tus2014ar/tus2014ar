@@ -224,6 +224,16 @@ Multi-year (2022–2025) alumni event performance analysis with scenario-based 2
   <img width="8"/>
   <img src="https://img.shields.io/badge/Claude-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude"/>
   <img width="8"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-code"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Claude%20Cowork-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-cowork"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Claude%20Skills-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-skills"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Claude%20Projects-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-projects"/>
+  <img width="8"/>
+  <img src="https://img.shields.io/badge/Claude%20MCP-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-mcp"/>
+  <img width="8"/>
   <img src="https://img.shields.io/badge/Perplexity-0A0A0A?style=for-the-badge&logo=perplexity&logoColor=white" height="28" alt="perplexity"/>
   <img width="8"/>
   <img src="https://img.shields.io/badge/Cursor%20IDE-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="28" alt="cursor"/>
