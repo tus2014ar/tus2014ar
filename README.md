@@ -234,8 +234,6 @@ Multi-year (2022–2025) alumni event performance analysis with scenario-based 2
   <img width="8"/>
   <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white" height="28" alt="copilot" title="GitHub Copilot"/>
   <img width="8"/>
-  <img src="https://img.shields.io/badge/Claude-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude" title="Claude"/>
-  <img width="8"/>
   <img src="https://img.shields.io/badge/Claude%20Code-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-code" title="Claude Code"/>
   <img width="8"/>
   <img src="https://img.shields.io/badge/Claude%20Cowork-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" height="28" alt="claude-cowork" title="Claude Cowork"/>
