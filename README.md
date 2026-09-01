@@ -257,10 +257,10 @@ Multi-year (2022–2025) alumni event performance analysis with scenario-based 2
   <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" height="28" alt="gemini" title="Google Gemini"/>
 </div>
 
-<!--<h3 align="left">🔥   My Stats :</h3>
+<h3 align="left">🔥   My Stats :</h3>
 
 ###
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=tus2014ar&show_icons=true&theme=dark" />
 </div>
--->
+
