@@ -261,6 +261,6 @@ Multi-year (2022–2025) alumni event performance analysis with scenario-based 2
 
 ###
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=tus2014ar&show_icons=true&theme=dark" />
+<img src="https://github-readme-stats-woad-sigma-44.vercel.app/api?username=tus2014ar&show_icons=true&theme=dark" />
 </div>
 
