@@ -42,50 +42,6 @@ Shipping efficient & scalable data solutions with real-world impact to productio
 
 <h3 align="left">🚀 Featured Projects</h3>
 
-<h4 align="left">⚙️ Data Engineering</h4>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[Databricks Data Quality Framework](https://github.com/tus2014ar/databricks-data-quality-framework)**
-
-Automated data quality monitoring built on Databricks DQX. 211 rule-based checks across 23 production tables, running on a scheduled bronze freshness monitor + gold rule engine.
-
-- Surfaced that **84% of active records** carried at least one data quality issue
-- Root-caused a **~39% completeness gap** in a core reporting table
-- Built an automated weekly digest routing findings to record owners
-
-`Databricks` `PySpark` `SQL` `Python` `YAML rule engines`
-
-</td>
-<td width="50%" valign="top">
-
-**[Databricks Cost Analytics & FinOps Framework](https://github.com/tus2014ar/databricks-cost-analytics)**
-
-FinOps cost-attribution pipeline built on Unity Catalog system tables. Star schema spanning 9 system tables, powering a 6-tab cost governance dashboard.
-
-- Found **85.6% of platform spend** had no identifiable owner
-- Identified **~95% of tracked resources** idle 90+ days, still accruing cost
-- Caught a **2x measurement error** in an AI-cost methodology before it shipped
-
-`Databricks` `PySpark` `SQL` `Star Schema` `FinOps`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Scholar Swipe — Scholarship Scraper](https://github.com/tus2014ar/Scholar-Swipe-Web-Scraping-Project)**
-
-Automated scraping pipeline that extracts scholarship listings and aggregates them into a centralized PostgreSQL (Supabase) database, with upsert-based dedup and automated summarization.
-
-`Python` `BeautifulSoup4` `PostgreSQL` `Supabase`
-
-</td>
-</tr>
-</table>
-
 <h4 align="left">🤖 Data Science / ML</h4>
 
 <table>
@@ -132,7 +88,51 @@ End-to-end NLP + geospatial pipeline tracking global sentiment toward LLMs acros
 </tr>
 </table>
 
-<h4 align="left">📊 Analytics Engineering / BI</h4>
+<h4 align="left">⚙️ Data Engineering</h4>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Databricks Data Quality Framework](https://github.com/tus2014ar/databricks-data-quality-framework)**
+
+Automated data quality monitoring built on Databricks DQX. 211 rule-based checks across 23 production tables, running on a scheduled bronze freshness monitor + gold rule engine.
+
+- Surfaced that **84% of active records** carried at least one data quality issue
+- Root-caused a **~39% completeness gap** in a core reporting table
+- Built an automated weekly digest routing findings to record owners
+
+`Databricks` `PySpark` `SQL` `Python` `YAML rule engines`
+
+</td>
+<td width="50%" valign="top">
+
+**[Databricks Cost Analytics & FinOps Framework](https://github.com/tus2014ar/databricks-cost-analytics)**
+
+FinOps cost-attribution pipeline built on Unity Catalog system tables. Star schema spanning 9 system tables, powering a 6-tab cost governance dashboard.
+
+- Found **85.6% of platform spend** had no identifiable owner
+- Identified **~95% of tracked resources** idle 90+ days, still accruing cost
+- Caught a **2x measurement error** in an AI-cost methodology before it shipped
+
+`Databricks` `PySpark` `SQL` `Star Schema` `FinOps`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Scholar Swipe — Scholarship Scraper](https://github.com/tus2014ar/Scholar-Swipe-Web-Scraping-Project)**
+
+Automated scraping pipeline that extracts scholarship listings and aggregates them into a centralized PostgreSQL (Supabase) database, with upsert-based dedup and automated summarization.
+
+`Python` `BeautifulSoup4` `PostgreSQL` `Supabase`
+
+</td>
+</tr>
+</table>
+
+<h4 align="left">📊 Advanced Analytics</h4>
 
 <table>
 <tr>
