@@ -100,9 +100,10 @@ Automated data quality monitoring built on Databricks DQX. 211 rule-based checks
 
 - Surfaced that **84% of active records** carried at least one data quality issue
 - Root-caused a **~39% completeness gap** in a core reporting table
+- Built an LLM-assisted rule-authoring step: profiles column-level statistics and drafts candidate rules for human review before promotion
 - Built an automated weekly digest routing findings to record owners
 
-`Databricks` `PySpark` `SQL` `Python` `YAML rule engines`
+`Databricks` `PySpark` `SQL` `Python` `YAML rule engines` `LLM-assisted profiling`
 
 </td>
 <td width="50%" valign="top">
@@ -114,8 +115,9 @@ FinOps cost-attribution pipeline built on Unity Catalog system tables. Star sche
 - Found **85.6% of platform spend** had no identifiable owner
 - Identified **~95% of tracked resources** idle 90+ days, still accruing cost
 - Caught a **2x measurement error** in an AI-cost methodology before it shipped
+- Automated a spend forecast (OLS regression, account + top objects), projecting **$53K–$57K annualized**
 
-`Databricks` `PySpark` `SQL` `Star Schema` `FinOps`
+`Databricks` `PySpark` `SQL` `Star Schema` `FinOps` `Forecasting`
 
 </td>
 </tr>
