@@ -18,7 +18,7 @@
 <h1 align="center">Hey There 👋 Welcome to My Git </h1>
 
 <h2 align="center">
-DS/ML Engineer
+Data Scientist • Machine Learning Engineer
 </h2>
 
 <h3 align="center">
