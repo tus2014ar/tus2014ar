@@ -64,7 +64,7 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
-Penn State DAAN 888 capstone, built with Saakshaat Saini: a monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). Phase 1 (data foundation and design) is complete; pipeline code is next.
+A monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). Phase 1 (data foundation and design) is complete; pipeline code is next.
 
 - Bronze / Silver / Gold star-schema warehouse design, documented end to end
 - Right-sized MLOps plan: DVC, MLflow + Optuna, SHAP, Evidently AI drift monitoring, GitHub Actions monthly run
