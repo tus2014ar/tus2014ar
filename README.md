@@ -48,6 +48,35 @@ Shipping efficient & scalable data solutions with real-world impact to productio
 <tr>
 <td width="50%" valign="top">
 
+**[Telecom Churn Intelligence System](https://github.com/tus2014ar/telecom-churn-intelligence-system)** &nbsp; `🚧 In Progress`
+
+End-to-end churn project on the Cell2Cell dataset: find the strongest churn driver across 58 features, validate it causally rather than by correlation, and test a retention intervention in a simulated experiment. Currently in Week 1 of a 7-week core build (EDA and driver ranking); no results yet.
+
+- Effect-size driver ranking (not p-values) across 51K train + 20K holdout rows, cross-validated on IBM Telco
+- Causal validation via propensity score matching
+- Tuned XGBoost vs. logistic regression baselines with SHAP explainability
+- CUPED-based simulated A/B experiment on the validated driver
+
+`Python` `Statsmodels` `XGBoost` `SHAP` `MLflow` `CUPED`
+
+</td>
+<td width="50%" valign="top">
+
+**[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
+
+Penn State DAAN 888 capstone, built with Saakshaat Saini: a monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). Phase 1 (data foundation and design) is complete; pipeline code is next.
+
+- Bronze / Silver / Gold star-schema warehouse design, documented end to end
+- Right-sized MLOps plan: DVC, MLflow + Optuna, SHAP, Evidently AI drift monitoring, GitHub Actions monthly run
+- Planned Claude + MCP Q&A layer over scoped, read-only Gold tables
+
+`Python` `SQLite` `scikit-learn` `MLflow` `DVC` `Claude + MCP`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **[AI Sentinel — Automated AI Compliance Monitoring](https://github.com/tus2014ar/AI-Sentinel---Automated-AI-Compliance-Monitoring-Platform)**
 
 Autonomous compliance agents that detect AI-driven regulatory risk in real time — built for the Penn State Nittany AI Challenge 2026, with fall-monitoring technology as the first live use case.
