@@ -42,7 +42,7 @@ Shipping efficient & scalable data solutions with real-world impact to productio
 
 <h3 align="left">🚀 Featured Projects</h3>
 
-<h4 align="left">🤖 Data Science / ML</h4>
+<h4 align="left">🤖 Data Science / Machine Learning</h4>
 
 <table>
 <tr>
