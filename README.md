@@ -64,13 +64,14 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
-A monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). Phase 1 (data foundation and design) is complete; pipeline code is next.
+A monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). Data foundation and the full ETL pipeline are built and verified end to end; classifier modeling is next.
 
-- Bronze / Silver / Gold star-schema warehouse design, documented end to end
-- Right-sized MLOps plan: DVC, MLflow + Optuna, SHAP, Evidently AI drift monitoring, GitHub Actions monthly run
-- Planned Claude + MCP Q&A layer over scoped, read-only Gold tables
+- Bronze → Silver → Gold star-schema warehouse fully built and populated: 72 months, 160 products, 149K+ fact rows, verified against real data at every stage
+- Pandera validation gate + 152 automated tests, including real-data integration tests, not just mocks
+- Orchestrated pipeline with a scheduled + manually-triggerable GitHub Actions workflow, run live end to end
+- Planned: classifier (logistic regression → random forest → gradient boosting) with MLflow tracking, SHAP explainability, and a Claude + MCP Q&A layer over the Gold tables
 
-`Python` `SQLite` `scikit-learn` `MLflow` `DVC` `Claude + MCP`
+`Python` `SQLite` `SQLAlchemy` `Pandera` `GitHub Actions` `scikit-learn` `MLflow` `Claude + MCP`
 
 </td>
 </tr>
