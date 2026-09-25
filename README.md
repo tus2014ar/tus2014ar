@@ -175,7 +175,7 @@ Automated scraping pipeline that extracts scholarship listings and aggregates th
 TRx-based pharmaceutical market analysis across brands, physician specialties, and sales channels — built as parallel dashboards in Python and Tableau to directly compare both platforms.
 
 - 202,499-row dataset with brand, specialty, and channel-mix analysis
-- Interactive Python (Plotly) dashboard exported as a standalone, shareable HTML file
+- Interactive Python Plotly dashboard exported as a standalone, shareable HTML file
 
 `Python` `Pandas` `Plotly` `Tableau`
 
