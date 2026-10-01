@@ -64,12 +64,12 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
-A monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). Data foundation and the full ETL pipeline are built and verified end to end; classifier modeling is next.
+A monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). ETL pipeline and full exploratory analysis are complete and verified end to end; the classifier itself is next.
 
 - Bronze → Silver → Gold star-schema warehouse fully built and populated: 72 months, 160 products, 149K+ fact rows, verified against real data at every stage
 - Pandera validation gate + 152 automated tests, including real-data integration tests, not just mocks
-- Orchestrated pipeline with a scheduled + manually-triggerable GitHub Actions workflow, run live end to end
-- Planned: classifier (logistic regression → random forest → gradient boosting) with MLflow tracking, SHAP explainability, and a Claude + MCP Q&A layer over the Gold tables
+- 3 EDA notebooks closed a degenerate modeling decision: the originally-proposed fixed threshold labeled 100% of real months "Flat"; replaced with a leakage-safe, volatility-based threshold (7 Up / 43 Flat / 9 Down)
+- Dedicated RA analysis surfaced a real originator-to-biosimilar switch (infliximab family: 100% → 11% originator share) despite RA staying too sparse for its own classifier
 
 `Python` `SQLite` `SQLAlchemy` `Pandera` `GitHub Actions` `scikit-learn` `MLflow` `Claude + MCP`
 
