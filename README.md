@@ -64,14 +64,14 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
-A monthly-refreshable classifier predicting next-month visit-share direction (Up / Down / Flat) for a branded injectable versus generic pain therapies in Osteoarthritis, on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years). ETL pipeline and full exploratory analysis are complete and verified end to end; the classifier itself is next.
+A monthly-refreshable analytics and ML pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years) that tracks a branded injectable's share against generic pain therapies in Osteoarthritis and tests, with pre-set rules, what can and cannot be predicted. Pipeline, analysis and modeling are complete and documented; the public website and Claude question box are built and tested but not yet deployed.
 
-- Bronze → Silver → Gold star-schema warehouse fully built and populated: 72 months, 160 products, 149K+ fact rows, verified against real data at every stage
-- Pandera validation gate + 239 automated tests, including real-data integration tests, not just mocks
-- 3 EDA notebooks closed a degenerate modeling decision: the originally-proposed fixed threshold labeled 100% of real months "Flat"; replaced with a leakage-safe, volatility-based threshold (7 Up / 43 Flat / 9 Down)
-- Dedicated RA analysis surfaced a real originator-to-biosimilar switch (infliximab family: 100% → 11% originator share) despite RA staying too sparse for its own classifier
+- Bronze → Silver → Gold warehouse (72 months, 160 products, 149K+ fact rows) with a validation gate, a safe publish step (staging build, checks, atomic swap, run log) and 455 automated tests, including real-data tests, with CI on every PR
+- Statistical findings with honest uncertainty: a bootstrap-calibrated change-point test (an initial method was replaced after tests showed it reported breaks that were not there), a mix-versus-adoption decomposition showing the share decline is inside specialties, a specialty adoption model with stability checks, and every headline conclusion re-run without the known data problems
+- Predictive models judged against the strongest simple baselines under protocols and serving rules fixed beforehand: a segment-share model beats "same as last month" modestly (most on small segments), while a share forecast and three direction classifiers do not, and a power analysis says what the data could detect; negative results are reported as such
+- Monitoring tools (a data-based review threshold and an interval alarm tested on simulated degradation), leakage tests that fail when a leak is injected on purpose, and a decision log of 57 dated decisions
 
-`Python` `SQLite` `SQLAlchemy` `Pandera` `GitHub Actions` `scikit-learn` `MLflow` `Claude + MCP`
+`Python` `SQLite` `SQLAlchemy` `Pandera` `scikit-learn` `statsmodels` `GitHub Actions` `Streamlit` `Claude API`
 
 </td>
 </tr>
