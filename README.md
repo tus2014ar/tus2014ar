@@ -66,10 +66,10 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 A monthly-refreshable analytics and ML pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years) that tracks a branded injectable's share against generic pain therapies in Osteoarthritis and tests, with pre-set rules, what can and cannot be predicted. Pipeline, analysis and modeling are complete and documented; the public website and Claude question box are built and tested but not yet deployed.
 
-- Bronze → Silver → Gold warehouse (72 months, 160 products, 149K+ fact rows) with a validation gate, a safe publish step (staging build, checks, atomic swap, run log) and 455 automated tests, including real-data tests, with CI on every PR
+- Bronze → Silver → Gold warehouse (72 months, 160 products, 149K+ fact rows) with a validation gate, a safe publish step (staging build, checks, atomic swap, run log) and 497 automated tests, including real-data tests, with CI on every PR
 - Statistical findings with honest uncertainty: a bootstrap-calibrated change-point test (an initial method was replaced after tests showed it reported breaks that were not there), a mix-versus-adoption decomposition showing the share decline is inside specialties, a specialty adoption model with stability checks, and every headline conclusion re-run without the known data problems
 - Predictive models judged against the strongest simple baselines under protocols and serving rules fixed beforehand: a segment-share model beats "same as last month" modestly (most on small segments), while a share forecast and three direction classifiers do not, and a power analysis says what the data could detect; negative results are reported as such
-- Monitoring tools (a data-based review threshold and an interval alarm tested on simulated degradation), leakage tests that fail when a leak is injected on purpose, and a decision log of 57 dated decisions
+- Monitoring tools (a data-based review threshold and an interval alarm tested on simulated degradation), leakage tests that fail when a leak is injected on purpose, and a decision log of 58 dated decisions
 
 `Python` `SQLite` `SQLAlchemy` `Pandera` `scikit-learn` `statsmodels` `GitHub Actions` `Streamlit` `Claude API`
 
