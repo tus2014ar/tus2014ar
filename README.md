@@ -66,10 +66,10 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 A monthly-refreshable analytics pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files, to track a branded injectable's share against generic pain therapies in Osteoarthritis. Profiling, cleaning, ingestion, the warehouse and EDA are complete; feature engineering is next.
 
-- Re-runnable Bronze → Silver → Gold warehouse (149K+ fact rows) with SHA-256 file audit, 11 quality gates, a golden regression test and an atomic publish; a 27-table public-data database with 38 reconciliation checks; ~590 tests in parallel CI
-- Found that company net sales kept rising (+5% in 2023, +6% in 2024) while IQVIA visits fell (-14%, -36%), and ruled out age/payer mix, care setting and value per visit as explanations: the size of the IQVIA decline should not be quoted as a market fact until panel coverage is checked
-- Showed the fall is concentrated (orthopedic surgery and physician assistants are 64% of the net drop) and that Medicare billing does not confirm IQVIA's specialty ranking (rank correlation 0.35 against 0.6 needed)
-- Public-data tests pre-registered (rules and thresholds written before any run), with a decision log of 70 dated decisions; weakened and negative results reported as such
+- **Profiling:** profiled IQVIA NMTA extracts (72 months, 160 products, 50 specialties, 7.19M+ visits) and 171 public CMS, CDC, SEC and FDA files (about 24 GB) into a documented data dictionary; surfaced a mis-coded prescriber group and a Mar-Jul 2024 volume dip (Zilretta -47%, corticosteroids -25%)
+- **Cleaning:** Pandera validation gate, a 160-product treatment taxonomy and 11 quality checks against a stored baseline; problems documented and kept, not silently dropped
+- **Ingestion and modelling:** re-runnable Bronze → Silver → Gold star schema (4 dimensions, 2 facts, 149K+ rows) plus a 27-table public-data constellation with 38 reconciliation checks, SHA-256 file audit, golden regression test and atomic publish; ~590 tests in CI
+- **EDA:** company net sales rose (+5% in 2023, +6% in 2024) while IQVIA visits fell (-14%, -36%), so the decline cannot be quoted as a market fact; orthopedic surgery and physician assistants are 64% of the net fall; Medicare does not confirm IQVIA's specialty ranking (rank correlation 0.35 vs 0.6 needed)
 
 `Python` `SQLite` `SQLAlchemy` `Pandera` `pandas` `scikit-learn` `statsmodels` `GitHub Actions`
 
