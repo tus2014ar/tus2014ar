@@ -64,14 +64,14 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
-A monthly-refreshable analytics and ML pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits over 6 years) that tracks a branded injectable's share against generic pain therapies in Osteoarthritis and tests, with pre-set rules, what can and cannot be predicted. Pipeline, analysis and modeling are complete and documented; the public website and Claude question box are built and tested but not yet deployed.
+A monthly-refreshable analytics pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files, to track a branded injectable's share against generic pain therapies in Osteoarthritis. Profiling, cleaning, ingestion, the warehouse and EDA are complete; feature engineering is next.
 
-- Bronze → Silver → Gold warehouse (72 months, 160 products, 149K+ fact rows) with a validation gate, a safe publish step (staging build, checks, atomic swap, run log) and 497 automated tests, including real-data tests, with CI on every PR
-- Statistical findings with honest uncertainty: a bootstrap-calibrated change-point test (an initial method was replaced after tests showed it reported breaks that were not there), a mix-versus-adoption decomposition showing the share decline is inside specialties, a specialty adoption model with stability checks, and every headline conclusion re-run without the known data problems
-- Predictive models judged against the strongest simple baselines under protocols and serving rules fixed beforehand: a segment-share model beats "same as last month" modestly (most on small segments), while a share forecast and three direction classifiers do not, and a power analysis says what the data could detect; negative results are reported as such
-- Monitoring tools (a data-based review threshold and an interval alarm tested on simulated degradation), leakage tests that fail when a leak is injected on purpose, and a decision log of 58 dated decisions
+- Re-runnable Bronze → Silver → Gold warehouse (149K+ fact rows) with SHA-256 file audit, 11 quality gates, a golden regression test and an atomic publish; a 27-table public-data database with 38 reconciliation checks; ~590 tests in parallel CI
+- Found that company net sales kept rising (+5% in 2023, +6% in 2024) while IQVIA visits fell (-14%, -36%), and ruled out age/payer mix, care setting and value per visit as explanations: the size of the IQVIA decline should not be quoted as a market fact until panel coverage is checked
+- Showed the fall is concentrated (orthopedic surgery and physician assistants are 64% of the net drop) and that Medicare billing does not confirm IQVIA's specialty ranking (rank correlation 0.35 against 0.6 needed)
+- Public-data tests pre-registered (rules and thresholds written before any run), with a decision log of 70 dated decisions; weakened and negative results reported as such
 
-`Python` `SQLite` `SQLAlchemy` `Pandera` `scikit-learn` `statsmodels` `GitHub Actions` `Streamlit` `Claude API`
+`Python` `SQLite` `SQLAlchemy` `Pandera` `pandas` `scikit-learn` `statsmodels` `GitHub Actions`
 
 </td>
 </tr>
