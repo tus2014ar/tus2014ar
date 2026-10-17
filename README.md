@@ -64,12 +64,13 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
-A monthly-refreshable analytics pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files, to track a branded injectable's share against generic pain therapies in Osteoarthritis. Profiling, cleaning, ingestion, the warehouse and EDA are complete; feature engineering is next.
+A monthly-refreshable analytics pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files, to track a branded injectable's share against generic pain therapies in Osteoarthritis. Profiling, cleaning, ingestion, the warehouse, EDA and feature engineering are complete; modelling is next.
 
 - **Profiling:** profiled IQVIA NMTA extracts (72 months, 160 products, 50 specialties, 7.19M+ visits) and 171 public files (about 24 GB: Medicare Part B/D, geographic variation, NPPES, ASP prices, Open Payments, SEC filings, CDC PLACES, openFDA) into a documented data dictionary; surfaced a mis-coded prescriber group and a Mar-Jul 2024 volume dip (Zilretta -47%, corticosteroids -25%)
 - **Cleaning:** Pandera validation gate, a 160-product treatment taxonomy and 11 quality checks against a stored baseline; problems documented and kept, not silently dropped
 - **Ingestion and modelling:** re-runnable Bronze → Silver → Gold star schema (4 dimensions, 2 facts, 149K+ rows) plus a 27-table public-data constellation with 38 reconciliation checks, SHA-256 file audit, golden regression test and atomic publish; ~590 tests in CI
 - **EDA:** company net sales rose (+5% in 2023, +6% in 2024) while IQVIA visits fell (-14%, -36%), so the decline cannot be quoted as a market fact; orthopedic surgery and physician assistants are 64% of the net fall; Medicare does not confirm IQVIA's specialty ranking (rank correlation 0.35 vs 0.6 needed)
+- **Feature engineering:** built 7 candidate input groups with leakage tests (rewrite the future and today's features must not move), as-of dates for outside data and a feature dictionary; tested them under rules written beforehand (walk-forward, 46-48 test months, paired bootstrap, repeated run identical). Only specialty and market context helps segment share (about 0.06% of log-loss, 42 of 46 months, robust to COVID and the 2024 dip); none beats "same as last month" nationally, so price, sales and promotion do not predict monthly share
 
 `Python` `SQLite` `SQLAlchemy` `Pandera` `pandas` `scikit-learn` `statsmodels` `GitHub Actions`
 
