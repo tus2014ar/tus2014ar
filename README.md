@@ -35,7 +35,7 @@ Shipping efficient & scalable data solutions with real-world impact to productio
 <li>🔭 Graduate Research Assistant in Data Science, building forecasting models and analytics workflows to drive data-informed decision making.</li>
 <li>⚙️ Data Science internship applying statistical analysis and AI-driven tooling to production data: automated data quality profiling across 23 tables, quantitative FinOps cost-attribution modeling, and medallion-architecture data models on Databricks.</li>
 <li>📚 Strengthening expertise in Python, SQL, Statistics, Machine Learning, and BI dashboards through rigorous coursework and hands-on projects.</li>
-<li>⚡ Exploring real-world datasets, developing dashboards and ML prototypes, and leveraging modern AI tools to improve productivity and model development.</li>
+<li>⚡ Exploring real-world datasets, developing dashboards and ML prototypes, and leveraging modern AI tools to improve productivity and model development and deployment.</li>
 </ul>
 
 ###
