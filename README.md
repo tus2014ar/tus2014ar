@@ -64,7 +64,7 @@ End-to-end churn project on the Cell2Cell dataset: find the strongest churn driv
 
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
-An automated monthly pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files. It tracks a branded injectable's share against generic pain therapies in osteoarthritis, forecasts it, and says plainly how far each forecast can be trusted. Data work, modelling, production hardening and the stakeholder site are built; hosting is next.
+An automated monthly ML pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files. It tracks a branded injectable's share against generic pain therapies in osteoarthritis, forecasts it, and says plainly how far each forecast can be trusted. Data work, modelling, production hardening and the stakeholder site are built; hosting is next.
 
 - **Profiling:** documented 72 months, 160 products, 50 specialties and 171 public files (about 24 GB) in a data dictionary, and caught a mis-coded prescriber group and a Mar-Jul 2024 volume dip (Zilretta -47%) that would distort any trend read
 - **Cleaning:** validation gate, a 160-product treatment taxonomy and 11 quality checks against a stored baseline; every problem is documented and kept, so each number stays traceable
