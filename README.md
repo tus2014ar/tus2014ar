@@ -48,7 +48,7 @@ Shipping efficient & scalable data solutions with real-world impact to productio
 <tr>
 <td width="50%" valign="top">
 
-**[Telecom Churn Intelligence System](https://github.com/tus2014ar/telecom-churn-intelligence-system)** &nbsp; `🚧 In Progress`
+**[Telecom Churn Intelligence System](https://github.com/tus2014ar/telecom-churn-intelligence-system)** &nbsp;
 
 End-to-end churn project on the Cell2Cell dataset: find the strongest churn driver across 58 features, validate it causally rather than by correlation, and test a retention intervention in a simulated experiment. Currently in Week 1 of a 7-week core build (EDA and driver ranking); no results yet.
 
