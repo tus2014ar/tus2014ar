@@ -48,20 +48,6 @@ Shipping efficient & scalable data solutions with real-world impact to productio
 <tr>
 <td width="50%" valign="top">
 
-**[Telecom Churn Intelligence System](https://github.com/tus2014ar/telecom-churn-intelligence-system)** &nbsp;
-
-End-to-end churn project on the Cell2Cell dataset: find the strongest churn driver across 58 features, validate it causally rather than by correlation, and test a retention intervention in a simulated experiment. Currently in Week 1 of a 7-week core build (EDA and driver ranking); no results yet.
-
-- Effect-size driver ranking (not p-values) across 51K train + 20K holdout rows, cross-validated on IBM Telco
-- Causal validation via propensity score matching
-- Tuned XGBoost vs. logistic regression baselines with SHAP explainability
-- CUPED-based simulated A/B experiment on the validated driver
-
-`Python` `Statsmodels` `XGBoost` `SHAP` `MLflow` `CUPED`
-
-</td>
-<td width="50%" valign="top">
-
 **[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
 
 An automated monthly ML pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files. It tracks a branded injectable's share against generic pain therapies in osteoarthritis, forecasts it, and says plainly how far each forecast can be trusted. Data work, modelling, production hardening and the stakeholder site are built; hosting is next.
@@ -78,8 +64,6 @@ An automated monthly ML pipeline on real IQVIA NMTA patient-visit data (7.19M+ v
 `Python` `SQLite` `SQLAlchemy` `Pandera` `pandas` `scikit-learn` `statsmodels` `Streamlit` `Docker` `GitHub Actions`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 **[AI Sentinel — Automated AI Compliance Monitoring](https://github.com/tus2014ar/AI-Sentinel---Automated-AI-Compliance-Monitoring-Platform)**
@@ -93,6 +77,8 @@ Autonomous compliance agents that detect AI-driven regulatory risk in real time 
 `Python` `Streamlit` `Ollama (local LLM)` `SQLite`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **[Resume–JD Matching Using Deep Learning](https://github.com/tus2014ar/Resume-Job-Description-Matching-Using-Deep-Learning)**
@@ -105,8 +91,6 @@ Autonomous compliance agents that detect AI-driven regulatory risk in real time 
 `Python` `PyTorch` `SBERT` `scikit-learn`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 **[Worldwide Sentiment Analysis of LLM-related Tweets](https://github.com/tus2014ar/Worldwide-Sentiment-Analysis-of-LLM-related-tweets)**
