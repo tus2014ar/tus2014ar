@@ -48,20 +48,17 @@ Shipping efficient & scalable data solutions with real-world impact to productio
 <tr>
 <td width="50%" valign="top">
 
-**[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; `🚧 In Progress`
+**[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; [`🟢 Live demo`](https://oa-market-intelligence-system-gc4jn4n6qqdf8mnaliabff.streamlit.app)
 
-An automated monthly ML pipeline on real IQVIA NMTA patient-visit data (7.19M+ visits, 72 months, 160 products) joined to 171 public CMS, CDC, SEC and FDA files. It tracks a branded injectable's share against generic pain therapies in osteoarthritis, forecasts it, and says plainly how far each forecast can be trusted. Data work, modelling, production hardening and the stakeholder site are built; hosting is next.
+An end-to-end ML system that forecasts a branded injectable's share of doctor visits and says how far to trust each forecast. Built on real IQVIA visit data (7M+ visits, 72 months, 160 products) plus 171 public files, and served through a FastAPI API on AWS Lambda, a Streamlit site and a Claude question box.
 
-- **Profiling:** documented 72 months, 160 products, 50 specialties and 171 public files (about 24 GB) in a data dictionary, and caught a mis-coded prescriber group and a Mar-Jul 2024 volume dip (Zilretta -47%) that would distort any trend read
-- **Cleaning:** validation gate, a 160-product treatment taxonomy and 11 quality checks against a stored baseline; every problem is documented and kept, so each number stays traceable
-- **Ingestion and modelling:** re-runnable Bronze → Silver → Gold warehouse (149K+ rows) plus a 27-table public-data layer with 38 reconciliation checks and 1,000+ tests in CI; a failed run leaves the last good database untouched
-- **EDA:** company net sales rose (+5%, +6%) while IQVIA visits fell (-14%, -36%), so the size of the decline must not be quoted as a market fact; orthopedic surgery and physician assistants drive 64% of the net fall
-- **Feature engineering:** 7 input groups tested under rules fixed in advance with leakage guards; only specialty and market context helps segment share, and price, sales and promotion add nothing to the national forecast
-- **Modelling:** no model beat "same as last month" for the national share; the segment model gains about 0.4% at 1 month but runs 5-18% high, and the alert's gain is mostly regression to the mean (my own post-hoc check). **Business impact:** plan on the last value, treat segment forecasts as optimistic, use the alert as a 1-month flag only (about half its alerts are not real declines)
-- **Production hardening:** pinned environment, CI-built Docker image, one 8-stage monthly run, a scoring job writing 1, 3 and 6-month forecasts with their known bias, and freshness and drift monitoring, so every forecast traces to its extract and code. The system flags its own data as stale (454 days): forecasts are a method and a baseline until a new extract arrives
-- **Stakeholder site:** a 9-tab Streamlit app that opens with what to use and what not to trust, a knowledge graph of 311 sourced entities, and a Claude question box with guardrails and a figure check (question box tested offline only). Not deployed
+- **Pipeline:** Dockerized 9-stage monthly run with a Bronze → Silver → Gold warehouse, an atomic swap and an 11-check promotion gate, so a failed or unstable refit never replaces live data; about 1,800 tests in CI
+- **Modelling:** pre-registered walk-forward tests, SHAP and an MLflow registry; the segment model beats the baseline in 46 of 46 test months (+0.44% log-loss) but runs high, so every forecast shows its bias
+- **Serving:** FastAPI (14 endpoints, API-key auth, live predictions) on AWS Lambda with S3 data releases, keyless GitHub Actions deploys and CloudWatch alarms
+- **Question box:** Claude with 11 read-only tools over a 311-node knowledge graph, giving sourced answers with a figure check
+- **Business impact:** no model beat "same as last month" for the national share; orthopedic surgery and physician assistants drive 64% of the net fall in visits; company sales rose while visits fell, so the decline cannot be quoted as a market fact
 
-`Python` `SQLite` `SQLAlchemy` `Pandera` `pandas` `scikit-learn` `statsmodels` `Streamlit` `Docker` `GitHub Actions`
+`Python` `SQLite` `Pandera` `scikit-learn` `SHAP` `FastAPI` `Docker` `AWS Lambda` `S3` `MLflow` `Streamlit` `GitHub Actions` `Claude API`
 
 </td>
 <td width="50%" valign="top">
