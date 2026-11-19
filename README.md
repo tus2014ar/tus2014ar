@@ -22,7 +22,7 @@ Data Scientist • Machine Learning Engineer
 </h2>
 
 <h3 align="center">
-Shipping efficient & scalable data solutions with real-world impact to production
+Shipping efficient & scalable data solutions, ML Pipelines and LLM based systems with real-world impact to production
 </h3>
 
 ###
