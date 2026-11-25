@@ -48,7 +48,7 @@ Shipping scalable data solutions, ML Pipelines and LLM based systems with real-w
 <tr>
 <td width="50%" valign="top">
 
-**[OA & RA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; [`🟢 Live demo`](https://oa-market-intelligence-system-gc4jn4n6qqdf8mnaliabff.streamlit.app)
+**[OA Market Intelligence System](https://github.com/tus2014ar/oa-market-intelligence-system)** &nbsp; [`🟢 Live demo`](https://oa-market-intelligence-system-gc4jn4n6qqdf8mnaliabff.streamlit.app)
 
 An end-to-end ML system that forecasts a branded injectable's share of doctor visits and says how far to trust each forecast. Built on real IQVIA visit data (7M+ visits, 72 months, 160 products) plus 171 public files, and served through a FastAPI API on AWS Lambda, a Streamlit site and a Claude question box.
 
